@@ -49,7 +49,6 @@ func makeFactorMap() func(int) []int {
 				allFactors = append(allFactors, k)
 			}
 		}
-
 		return allFactors
 	}
 }
